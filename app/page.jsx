@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoadingScreen from '@/components/LoadingScreen';
 import MusicPlayer from '@/components/MusicPlayer';
+import Space from '@/components/Space';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
 
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
 
+					<Space />
 					<Image
 						src={`/image.png`} // Replace with your image paths
 						alt={`Image`}
@@ -65,7 +67,7 @@ export default function Home() {
 					<MusicPlayer />
 				</div>
 			</div>
-
+			s
 		</div>
 	);
 }
