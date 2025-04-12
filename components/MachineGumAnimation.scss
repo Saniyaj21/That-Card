@@ -1,0 +1,33 @@
+#demo {
+	position: relative;
+	width: 100%;
+	background:transparent;
+	margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	overflow: hidden;
+  padding: 80px 0px;
+}
+
+#demo h3 {
+  position: absolute;
+  font-family: "Sriracha", cursive;
+	font-weight: 700;
+	margin: 0;
+  padding: 80px 0px;
+	padding: 0;
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	visibility: hidden;
+	font-size: 120px;
+	left: 0px;
+  text-overflow: ellipsis;
+}
+@media (max-width: 426px) {
+  #demo h3 {
+    font-size: 70px;
+  }
+}
